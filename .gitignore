@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+react-frontend/dist/
+react-frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
+# Temp
+*.tmp
+*.temp
